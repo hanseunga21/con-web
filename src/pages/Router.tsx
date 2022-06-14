@@ -3,6 +3,10 @@ import { Redirect, Route, Switch } from 'react-router';
 import { LoginPage } from './LoginPage';
 import { HomePage } from './HomePage';
 import { SignupPage } from './SignupPage';
+import { Page1 } from './Page1';
+import { Notice } from './Notice';
+import { Member } from './Member';
+import { Add1 } from './Add1';
 
 export const Router = () => {
   return (
@@ -10,9 +14,12 @@ export const Router = () => {
       <Route path="/signup" component={SignupPage} />
       <Route path="/login" component={LoginPage} />
       <Route path="/" component={HomePage} exact />
-      <Route path="/">
-        <Redirect to="/" />
-      </Route>
+      <Route path="/page1" component={Page1} />
+      <Route path="/notice" component={Notice} />
+      <Route path="/member" component={Member} />
+      <Route path="/add1" component={Add1} />
+
+
     </Switch>
   );
 };

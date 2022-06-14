@@ -13,11 +13,11 @@ export const HomePage = () => {
 
 
 
-    <div className="absolute bottom-6 left-0 right-0 px-16">
-      <Button className='border-2 w-full border-gray-800 text-bold'>
+    <div className="absolute bottom-6 left-0 right-0 px-6 py-4 ">
+      <Button className='border-2 h-10 w-full border-gray-800 font-semibold text-sm'>
         로그인
       </Button>
-      <Button className='border-2 w-full border-gray-900 mt-3 bg-gray-500 text-white text-bold'>
+      <Button className='border-2 h-10 w-full border-gray-900 mt-3 bg-gray-500 text-white font-semibold text-sm'>
         회원가입
       </Button>
     </div>

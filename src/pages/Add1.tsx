@@ -10,9 +10,9 @@ export const Add1 = () => {
 <div className= "flex w-full justify-between ">
   <a href="page1" className="text-2xl pt-10 pl-8 pr-8 font-bold m-1 text-gray-500"
   >공지</a>
-  <a href="" className="text-2xl pt-10 pl-8 pr-8 font-bold m-1 "
+  <a href="member" className="text-2xl pt-10 pl-8 pr-8 font-bold m-1 "
   >멤버</a>
-   <a href="" className="text-2xl pt-10 pl-8 pr-8 font-bold m-1 text-gray-500"
+   <a href="todo" className="text-2xl pt-10 pl-8 pr-8 font-bold m-1 text-gray-500"
   >일정</a>
 </div>
 

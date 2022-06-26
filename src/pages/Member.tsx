@@ -11,7 +11,7 @@ export const Member = () => {
   >공지</a>
   <a href="" className="text-2xl pt-10 pl-8 pr-8 font-bold m-1 "
   >멤버</a>
-   <a href="" className="text-2xl pt-10 pl-8 pr-8 font-bold m-1 text-gray-500"
+   <a href="todo" className="text-2xl pt-10 pl-8 pr-8 font-bold m-1 text-gray-500"
   >일정</a>
 </div>
 
@@ -32,7 +32,7 @@ export const Member = () => {
   </div>
 
   <div>
-    <div className='border-2 rounded-lg border-gray-600 mt-10 mx-5 px-4 py-4'>
+    <div className='border-2 rounded-lg border-gray-600 mt-5 mx-5 px-4 py-4'>
       <div className='flex justify-between'>
       <div className='text-2xl font-bold'>
         정경화</div>

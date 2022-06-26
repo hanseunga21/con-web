@@ -1,5 +1,4 @@
-import React from 'react';
-import { Redirect, Route, Switch } from 'react-router';
+import { Route, Switch } from 'react-router';
 import { LoginPage } from './LoginPage';
 import { HomePage } from './HomePage';
 import { SignupPage } from './SignupPage';
@@ -7,6 +6,8 @@ import { Page1 } from './Page1';
 import { Notice } from './Notice';
 import { Member } from './Member';
 import { Add1 } from './Add1';
+import { Todo } from './Todo';
+import { AddTodo } from './AddTodo';
 
 export const Router = () => {
   return (
@@ -18,7 +19,9 @@ export const Router = () => {
       <Route path="/notice" component={Notice} />
       <Route path="/member" component={Member} />
       <Route path="/add1" component={Add1} />
-
+      <Route path="/todo" component={Todo} />
+      <Route path='/addtodo' component={AddTodo} />
+    
 
     </Switch>
   );
